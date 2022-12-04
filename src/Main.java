@@ -24,27 +24,27 @@ public class Main {
 
     private String maxString(String string1, String string2, String string3) {
         String max = string1;
-        if (string2.compareTo(string1) > 0)
+        if (string2.compareTo(max) > 0)
             max = string2;
-        if (string3.compareTo(string2) > 0)
+        if (string3.compareTo(max) > 0)
             max = string3;
         return max;
     }
 
     private Float maxFloat(Float floatNum1, Float floatNum2, Float floatNum3) {
         Float max = floatNum1;
-        if (floatNum2.compareTo(floatNum1) > 0)
+        if (floatNum2.compareTo(max) > 0)
             max = floatNum2;
-        if (floatNum3.compareTo(floatNum2) > 0)
+        if (floatNum3.compareTo(max) > 0)
             max = floatNum3;
         return max;
     }
 
     private Integer maxInt(Integer intNum1, Integer intNum2, Integer intNum3) {
         Integer max = intNum1;
-        if (intNum2.compareTo(intNum1) > 0)
+        if (intNum2.compareTo(max) > 0)
             max = intNum2;
-        if (intNum3.compareTo(intNum2) > 0)
+        if (intNum3.compareTo(max) > 0)
             max = intNum3;
         return max;
     }
