@@ -10,13 +10,13 @@ public class Main {
         Integer intNum2 = sc.nextInt();
         Integer intNum3 = sc.nextInt();
         System.out.println("Maximum number is : " + main.max(intNum1,intNum2,intNum3));
-    }
+}
 
     private Integer max(Integer num1, Integer num2, Integer num3) {
         Integer max = num1;
-        if (num2.compareTo(num1) > 0)
+        if (num2.compareTo(max) > 0)
             max = num2;
-        if (num3.compareTo(num2) > 0)
+        if (num3.compareTo(max) > 0)
             max = num3;
         return max;
     }
